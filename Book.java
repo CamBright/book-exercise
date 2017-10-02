@@ -22,5 +22,16 @@ class Book
         title = bookTitle;
     }
 
-    // Add the methods here ...
+
+    private String getAuthor()
+
+    {
+        return author;
+    }
+
+    private String getTitle()
+
+    {
+        return title;
+    }
 }
