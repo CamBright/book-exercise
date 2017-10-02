@@ -21,8 +21,7 @@ class Book
         author = bookAuthor;
         title = bookTitle;
     }
-
-
+    
     private String getAuthor()
 
     {
@@ -33,5 +32,17 @@ class Book
 
     {
         return title;
+    }
+    
+    private void printAuthor()
+
+    {
+        System.out.println ("The Author is " + author);
+    }
+    
+    private void printTitle()
+
+    {
+        System.out.println ("The Title is " + title);
     }
 }
