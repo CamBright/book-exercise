@@ -6,20 +6,22 @@
  * @author (Insert your name here.)
  * @version (Insert today's date here.)
  */
-class Book
+public class Book
 {
     // The fields.
     private String author;
     private String title;
+    private int pages;
 
     /**
      * Set the author and title fields when this object
      * is constructed.
      */
-    public Book(String bookAuthor, String bookTitle)
+    public Book(String bookAuthor, String bookTitle, int bookPages)
     {
         author = bookAuthor;
         title = bookTitle;
+        pages = bookPages;
     }
     
     private String getAuthor()
@@ -44,5 +46,10 @@ class Book
 
     {
         System.out.println ("The Title is " + title);
+    }
+    
+    private int getPages()
+    {
+        return pages;
     }
 }
