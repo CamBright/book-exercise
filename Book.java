@@ -52,4 +52,10 @@ public class Book
     {
         return pages;
     }
+    private void printDetails()
+    {   
+        System.out.println ("Title: " + title);
+        System.out.println ("Author: " + author);
+        System.out.println ("Number of Pages: " + pages);
+    }
 }
