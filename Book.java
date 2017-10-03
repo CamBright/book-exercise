@@ -70,6 +70,17 @@ public class Book
             System.out.println("Reference number: ZZZ");
         }
     }
+    private void SetRefNumber(String ref)
+    {
+        if(ref.length()>=3)
+        {
+            refNumber = ref;
+        }
+        else
+        {
+            System.out.println("Error, the Reference number needs to have at least 3 characters.");
+        }
+    }
     private String getRefNumber()
     {
         return refNumber;
